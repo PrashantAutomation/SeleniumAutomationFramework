@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.crm.qa.testcases.LoginPageTest" time="9.647" tests="3" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/test-classes:/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/classes:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/prashantdubey/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/prashantdubey/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/prashantdubey/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/prashantdubey/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/prashantdubey/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/prashantdubey/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/prashantdubey/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/prashantdubey/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/prashantdubey/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/prashantdubey/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/prashantdubey/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/prashantdubey/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/home/prashantdubey/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/prashantdubey/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/prashantdubey/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-excelant/4.1.2/poi-excelant-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar:/home/prashantdubey/.m2/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-examples/4.1.2/poi-examples-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-contrib/3.6/poi-contrib-3.6.jar:/home/prashantdubey/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/prashantdubey/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/home/prashantdubey/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/home/prashantdubey/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/prashantdubey/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/home/prashantdubey/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/home/prashantdubey/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/prashantdubey/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/prashantdubey/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/surefire/surefirebooter10869392948146594913.jar /home/prashantdubey/eclipse-workspace/FreeCRMTest/target/surefire 2020-05-04T20-32-04_475-jvmRun1 surefire8388003585496975441tmp surefire_011964784389343905938tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/test-classes:/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/classes:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/prashantdubey/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/prashantdubey/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/prashantdubey/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/prashantdubey/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/prashantdubey/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/prashantdubey/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/prashantdubey/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/prashantdubey/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/prashantdubey/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/prashantdubey/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/prashantdubey/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/prashantdubey/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/prashantdubey/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi/4.1.2/poi-4.1.2.jar:/home/prashantdubey/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/home/prashantdubey/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/prashantdubey/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-scratchpad/4.1.2/poi-scratchpad-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/ooxml-schemas/1.4/ooxml-schemas-1.4.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-excelant/4.1.2/poi-excelant-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/ant/ant/1.8.2/ant-1.8.2.jar:/home/prashantdubey/.m2/repository/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-examples/4.1.2/poi-examples-4.1.2.jar:/home/prashantdubey/.m2/repository/org/apache/poi/poi-contrib/3.6/poi-contrib-3.6.jar:/home/prashantdubey/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/prashantdubey/.m2/repository/logkit/logkit/1.0.1/logkit-1.0.1.jar:/home/prashantdubey/.m2/repository/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.jar:/home/prashantdubey/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/prashantdubey/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/home/prashantdubey/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/home/prashantdubey/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/prashantdubey/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/prashantdubey/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/prashantdubey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest/target/surefire/surefirebooter10869392948146594913.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="user.name" value="prashantdubey"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-88-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/prashantdubey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="/home/prashantdubey/eclipse-workspace/FreeCRMTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.118">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=80.0.3987.132)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;197NODNB23658&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-88-generic&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.dUPqca}, goog:chromeOptions: {debuggerAddress: localhost:44765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 55424e4681828968f385a1d0d5139ee2" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '197NODNB23658', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-88-generic', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.dUPqca}, goog:chromeOptions: {debuggerAddress: localhost:44765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55424e4681828968f385a1d0d5139ee2
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 20912
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 04, 2020 8:32:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588604531.014][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.116][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.265][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.393][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.494][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.810][SEVERE]: Timed out receiving message from renderer: 0.100
+[1588604531.914][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.crm.qa.testcases.LoginPageTest" time="2.953">
+    <failure message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=80.0.3987.132)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;197NODNB23658&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-88-generic&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.hghvuW}, goog:chromeOptions: {debuggerAddress: localhost:45049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9442c92d7d2988cdc7241a8bc6c38887" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '197NODNB23658', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-88-generic', java.version: '11.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.hghvuW}, goog:chromeOptions: {debuggerAddress: localhost:45049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9442c92d7d2988cdc7241a8bc6c38887
+	at com.crm.qa.testcases.LoginPageTest.setup(LoginPageTest.java:22)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 17667
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 04, 2020 8:32:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1588604535.076][SEVERE]: Unable to receive message from renderer
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0">
+    <skipped message="unknown error: cannot determine loading status&#10;from disconnected: received Inspector.detached event&#10;  (Session info: chrome=80.0.3987.132)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;197NODNB23658&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-88-generic&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /tmp/.com.google.Chrome.hghvuW}, goog:chromeOptions: {debuggerAddress: localhost:45049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9442c92d7d2988cdc7241a8bc6c38887"/>
+  </testcase>
+</testsuite>
